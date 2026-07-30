@@ -1,0 +1,87 @@
+[
+  {
+    "path": ".gitignore",
+    "size": 35,
+    "sha256": "8b3cc6ff28dc3e87a28b5f119b853ad6e7adb8187256878c8365bfde223bd607"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "size": 261,
+    "sha256": "b2e940f60cc80b759f327d7db515cabda199986b7db9c7bec43e40c23957b371"
+  },
+  {
+    "path": "README.md",
+    "size": 763,
+    "sha256": "42e691324dd39fa0cc075308361ac2df0bfeacf9cffc7f01416d3c25246bd105"
+  },
+  {
+    "path": "config/project.json",
+    "size": 170,
+    "sha256": "8b52b4e117ec895dc8a56fb56765972253414599c1f1c6f5ec4c35475c4590eb"
+  },
+  {
+    "path": "docs/ARCHITECTURE.md",
+    "size": 360,
+    "sha256": "bb49cc1be2d8abd0917a4657abd69120a3ada7fa911c917c5a843f3c947ef329"
+  },
+  {
+    "path": "docs/PROJECT_DECISIONS.md",
+    "size": 692,
+    "sha256": "623bc6c8f0789caeb5447ec17b0ac93544c5e983699b6d628588aab224472df3"
+  },
+  {
+    "path": "docs/ROADMAP.md",
+    "size": 345,
+    "sha256": "7077a12e041ea4ec98cc1d8ffcf924653acc7f9e640e1d62875f617086e4abd2"
+  },
+  {
+    "path": "index.html",
+    "size": 3260,
+    "sha256": "0594eb3487bd990e16263ea8e5335360020c97a9162011182b6caac13db23d4e"
+  },
+  {
+    "path": "manifest.webmanifest",
+    "size": 354,
+    "sha256": "74a7aeaec31089bcec950abb1ca29c09545031008a0b8bcb1a7acbc604ec9337"
+  },
+  {
+    "path": "package.json",
+    "size": 237,
+    "sha256": "13a2c6d832c59bff37b84a2ade77ed9d55b650fbb45aa21da1b60458e9fa6843"
+  },
+  {
+    "path": "service-worker.js",
+    "size": 759,
+    "sha256": "820ae3970c8290756627308740b56adddba32b0ec0a04aba16dfd0efdbff6f08"
+  },
+  {
+    "path": "src/assets/icons/icon.svg",
+    "size": 219,
+    "sha256": "c4597ef085515c558f29b0b740b12c0d74af3c20a798d3d5d84160c08aa1d4c7"
+  },
+  {
+    "path": "src/css/main.css",
+    "size": 2778,
+    "sha256": "c85e6f47679d884d34a76f5029e1c2f45f12549d5c2fd183421a60ee242b9d5f"
+  },
+  {
+    "path": "src/js/app.js",
+    "size": 1988,
+    "sha256": "de62ff05338be06a4552c8699d0e7562773b4cfd624cdfb3e833aa700c521a46"
+  },
+  {
+    "path": "src/js/core/store.js",
+    "size": 381,
+    "sha256": "382c819251c6c4fbb1ef36ecdb21eba774399af4a80c03c9f162b751a43e8c6d"
+  },
+  {
+    "path": "src/js/modules/content.js",
+    "size": 857,
+    "sha256": "20d279d809cc8ef840b504db9035f2b7d66d8bdbc7df1b7fc90675de5d3b46ae"
+  },
+  {
+    "path": "vite.config.js",
+    "size": 82,
+    "sha256": "2413ae203bce6e7f4093e81c432e432538044ffc45494223550b20f33dbc891a"
+  }
+]

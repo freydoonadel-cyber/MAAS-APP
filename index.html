@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#101114" />
+  <meta name="description" content="MAAS application foundation" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" href="./src/assets/icons/icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./src/css/main.css" />
+  <title>MAAS — Foundation v0.1</title>
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">MAAS FOUNDATION</p>
+        <h1>هسته اولیه اپلیکیشن</h1>
+      </div>
+      <span class="version">v0.1.0</span>
+    </header>
+
+    <main class="shell">
+      <section class="hero card">
+        <div>
+          <span class="status-dot"></span>
+          <span id="statusText">سیستم آماده است</span>
+        </div>
+        <h2>پایه واقعی برای ادامه ساخت MAAS</h2>
+        <p>
+          این نسخه شامل ساختار پروژه، سیستم ناوبری، مدیریت وضعیت،
+          ذخیره‌سازی محلی، نصب PWA و مستندات اولیه است.
+        </p>
+        <div class="actions">
+          <button id="enterBtn" class="primary">ورود به اپ</button>
+          <button id="installBtn" class="secondary" hidden>نصب اپ</button>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="card module-card" data-module="home">
+          <span class="module-icon">⌂</span>
+          <h3>Home</h3>
+          <p>داشبورد و مسیر اصلی ورود کاربر.</p>
+        </article>
+
+        <article class="card module-card" data-module="chat">
+          <span class="module-icon">◫</span>
+          <h3>Chat</h3>
+          <p>جایگاه آینده چت خصوصی و Roomها.</p>
+        </article>
+
+        <article class="card module-card" data-module="world">
+          <span class="module-icon">◎</span>
+          <h3>World</h3>
+          <p>پایه بخش World Map و شهرهای MAAS.</p>
+        </article>
+
+        <article class="card module-card" data-module="runner">
+          <span class="module-icon">▶</span>
+          <h3>Runner</h3>
+          <p>پایه اتصال بازی MAAS Runner.</p>
+        </article>
+      </section>
+
+      <section class="card panel" id="panel">
+        <div class="panel-head">
+          <h2 id="panelTitle">Home</h2>
+          <button id="closePanel" aria-label="بستن">×</button>
+        </div>
+        <div id="panelBody">
+          <p>برای باز کردن هر بخش روی کارت آن کلیک کن.</p>
+        </div>
+      </section>
+    </main>
+
+    <nav class="bottom-nav" aria-label="Main navigation">
+      <button class="nav-btn active" data-module="home">Home</button>
+      <button class="nav-btn" data-module="chat">Chat</button>
+      <button class="nav-btn" data-module="world">World</button>
+      <button class="nav-btn" data-module="runner">Runner</button>
+    </nav>
+  </div>
+
+  <noscript>برای اجرای MAAS باید JavaScript فعال باشد.</noscript>
+  <script type="module" src="./src/js/app.js"></script>
+</body>
+</html>

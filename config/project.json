@@ -1,0 +1,12 @@
+{
+  "project": "MAAS",
+  "version": "0.1.0",
+  "phase": "Foundation",
+  "minimum_age": 18,
+  "verified_optional": true,
+  "language": [
+    "fa",
+    "it",
+    "en"
+  ]
+}
